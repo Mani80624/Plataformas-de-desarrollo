@@ -1,0 +1,50 @@
+conectoma
+Base de datos estructuradas (Tablas, relaciones, indices, Trr, log's) y no estructuradas (preprocesamiento)
+Subir una base de datos (FTP, REST)
+
+Este código en Python es una estructura común para organizar y ejecutar un programa, especialmente uno que podría ser importado y reutilizado en otros contextos. Vamos a analizarlo paso a paso:
+
+**1. `if __name__ == '__main__':`**
+
+   - Esta línea es una condición que se evalúa cuando se ejecuta el script de Python.
+   - `__name__` es una variable especial que contiene el nombre del módulo actual.
+   - Cuando ejecutas un script directamente (por ejemplo, `python mi_script.py`), el valor de `__name__` es `'__main__'`.
+   - Si el script se importa como un módulo en otro script, el valor de `__name__` será el nombre del módulo (por ejemplo, `mi_script`).
+   - Por lo tanto, esta condición asegura que el código dentro del `if` solo se ejecute cuando el script se ejecuta directamente, no cuando se importa.
+
+**2. `ai = AlienInvasion()`**
+
+   - Esta línea crea una instancia de la clase `AlienInvasion`.
+   - `AlienInvasion` probablemente es una clase que define la lógica y el comportamiento del juego.
+   - Al crear una instancia, se inicializan los atributos y se configura el entorno del juego.
+
+**3. `ai.run_game()`**
+
+   - Esta línea llama al método `run_game()` del objeto `ai` (que es una instancia de `AlienInvasion`).
+   - `run_game()` probablemente contiene el bucle principal del juego, que se encarga de procesar eventos, actualizar el estado del juego y dibujar la pantalla.
+   - Este método mantiene el juego en ejecución hasta que el jugador decide salir o se cumplen ciertas condiciones de finalización.
+
+**En resumen:**
+
+Este código crea una instancia de la clase `AlienInvasion` y luego llama a su método `run_game()` para iniciar el juego. La condición `if __name__ == '__main__':` asegura que esta inicialización y ejecución del juego solo ocurran cuando el script se ejecuta directamente, no cuando se importa como un módulo.
+
+**¿Por qué es útil esta estructura?**
+
+- **Reusabilidad:** Permite que el código del juego se pueda importar y utilizar en otros scripts sin que se inicie el juego automáticamente.
+- **Organización:** Ayuda a separar la lógica del juego (dentro de la clase `AlienInvasion`) de la forma en que se inicia y ejecuta el juego.
+- **Pruebas:** Facilita la realización de pruebas unitarias de la clase `AlienInvasion` sin tener que ejecutar el juego completo.
+
+En general, esta estructura es una buena práctica para organizar el código en Python y hacerlo más modular y reutilizable.
+
+El ecosistema de aprendizaje automático de Python se puede dividir en tres tipos principales de paquetes:
+-Data fits in memory (los datos en la memoria)
+- Optimize your code (optimizar código)
+- Big data
+
+* Documentanción bioetica
+* Comparación de la dataset
+
+Set-ExecutionPolicy Unrestricted
+
+Nature
+NCBI Dataset
